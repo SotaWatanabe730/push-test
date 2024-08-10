@@ -1,0 +1,56 @@
+.image-container {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.group {
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.group-heading {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.scroll-container {
+    overflow-x: auto;
+    white-space: nowrap;
+    padding: 10px 0;
+}
+
+.scroll-content {
+    display: flex;
+}
+
+.group-item {
+    display: inline-block;
+    margin-right: 10px;
+    text-align: center;
+    position: relative;
+    border: 2px solid transparent; /* デフォルトの枠線 */
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #f9f9f9;
+}
+
+.group-item img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border: 2px solid transparent; /* デフォルトの枠線 */
+    border-radius: 5px;
+}
+
+.group-item p {
+    margin: 5px 0 0 0;
+    font-size: 0.9em;
+}
+
+.selected {
+    border-color: blue; /* 選択された画像の青い枠線 */
+}
